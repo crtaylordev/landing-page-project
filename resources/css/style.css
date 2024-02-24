@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Multi Selector Styles */
+
+header,
+.hero-section,
+footer {
+    background-color: #1F2937;
+}
+
+button,
+.cta-section {
+    background-color: #3882F6;
+}
+
+a,
+button,
+.header-logo,
+.hero-text h1,
+.cta-section {
+    color: #F9FAF8;
+}
+
+.gallery-section h2,
+.quote-section {
+    color: #1F2937;
+}
+
+
+/* Header */
+
+header {
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Hero */
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Gallery */
+
+.gallery-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.gallery-section {
+    display: flex;
+}
+
+/* Quote */
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+/* Footer */
