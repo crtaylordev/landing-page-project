@@ -3,12 +3,41 @@ body {
     font-size: 16px;
 }
 
-/* Multi-Section Styles */
+/* Colors and Branding */
 
-header,
-.hero-section,
-footer {
+.bc-primary {
     background-color: #1F2937;
+}
+
+.bc-secondary {
+    background-color: #F9FAF8;
+}
+
+.bc-tertiary {
+    background-color: #E5E7EB;
+}
+
+.bc-accent {
+    background-color: #3882F6;
+}
+
+.tc-dark {
+    color: #1F2937;
+}
+
+.tc-light {
+    color: #F9FAF8;
+}
+
+.tc-medium {
+    color: #E5E7EB;
+}
+
+/* Universal */
+
+.container {
+    padding: 1.5em;
+    display: flex;
 }
 
 button {
@@ -19,26 +48,11 @@ button {
 }
 
 button,
-.cta-section {
-    background-color: #3882F6;
+#cont-cta {
     font-size: 1.125em;
 }
 
-a,
-button,
-.header-logo,
-.hero-text h1,
-.cta-section,
-footer {
-    color: #F9FAF8;
-}
-
-.gallery-section,
-.quote-section {
-    color: #1F2937;
-}
-
-.gallery-section h2,
+.feature-h2,
 .quote {
     font-size: 2.25em;
 }
@@ -57,21 +71,16 @@ header {
     font-weight: 700;
 }
 
-.header-links {
+.header-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.header-links a {
+.nav-link {
     margin: 0 1em;
 }
 
 /* Hero */
-
-.hero-section {
-    padding: 1.5em;
-    display: flex;
-}
 
 .hero-text,
 .hero-image {
@@ -90,38 +99,36 @@ header {
     background-color: #E5E7EB;
 }
 
-.hero-text h1 {
+.hero-h1 {
     font-size: 3em;
     font-weight: 900;
 }
 
-.hero-text p {
+.hero-p {
     font-size: 18px;
-    color: #E5E7EB;
     margin: 1em 0;
 }
 
-/* Gallery */
+/* Feature Section */
 
-.gallery-section {
-    display: flex;
+.cont-feature {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.gallery-section h2 {
+.feature-h2 {
     font-weight: 700;
     margin: 1em;
 }
 
-.gallery-img-container,
-.gallery-img, 
-.gallery-img img {
+.cont-gallery,
+.gallery-frame, 
+.gallery-img {
     margin-bottom: 1em;
 }
 
-.gallery-img-container {
+.cont-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -129,12 +136,12 @@ header {
     max-width: 85%;
 }
 
-.gallery-img {
+.gallery-frame {
     max-width: 250px;
     text-align: center;
 }
 
-.gallery-img img {
+.gallery-img {
     width: 150px;
     height: 150px;
     border: solid 3px #3882F6;
@@ -143,7 +150,7 @@ header {
 
 /* Quote */
 
-.quote-section {
+.cont-quote {
     background-color: #E5E7EB;
     padding: 4em 0;
 }
@@ -169,7 +176,7 @@ header {
 
 /* Call to Action */
 
-.cta-section {
+#cont-cta {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -178,12 +185,12 @@ header {
     margin: 3em 8em;
 }
 
-.cta-section h3 {
+.cta-h3 {
     font-weight: 700;
     margin-bottom: 0.15em;
 }
 
-.cta-section p {
+.cta-p {
     font-size: 0.85em;
 }
 
